@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
+<!-- saved from url=(0101)file:///Users/danlourd.ramirez/Developer/shirley/codingbootcamp/homework/week4/week-4-game/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	
 	<title>CrystalsCollector Game</title>
 	<!-- We link our html to the Bootstrap CDN -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./CrystalsCollector Game_files/bootstrap.min.css">
 	<!-- Linking CSS Reset -->
-	<link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="./CrystalsCollector Game_files/reset.css">
 	<!-- Linking CSS -->
-	<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="./CrystalsCollector Game_files/style.css">
 </head>
 <body>
 <!-- Main Header -->
@@ -37,30 +37,30 @@
 		<!-- Random Number Generator Section -->
 		<div class="row">
 			<div class="col-md-3">
-				<div id="numGenerator"></div>
+				<div id="numGenerator"> </div>
 			</div>
 
 			<!-- Win or Lose Section -->
 			<div class="col-md-2">
-				<div id=winScore>Wins: </div>
-				<div id="losesScore">Loses: </div>
+				<div id="wins">Wins</div>
+				<div id="loses">Loses</div>
 			</div>	
 		</div>
 
 		<!-- Crystal Image Section -->
 		<div class="row">
 			<div class="col-sm-4">  
-				<div class="red-crystal crystal" value="redcyrstal">
-					<img src="./assets/images/red-crystal.png" class="img-responsive"  alt="Red Crystal">
+				<div id="red-crystal">
+					<img src="./CrystalsCollector Game_files/red-crystal.png" class="img-responsive" alt="Red Crystal">
 				</div>
-				<div class="blue-crystal crystal" value="bluecyrstal">
-					<img src="./assets/images/blue-crystal.png" class="img-responsive" alt="Blue Crystal">
+				<div id="blue-crystal">
+					<img src="./CrystalsCollector Game_files/blue-crystal.png" class="img-responsive" alt="Blue Crystal">
 				</div>
-				<div class="yellow-cyrstal crystal" value="yellowcyrstal">
-					<img src="./assets/images/yellow-crystal.png" class="img-responsive" alt="Yellow Crystal">
+				<div id="yellow-cyrstal">
+					<img src="./CrystalsCollector Game_files/yellow-crystal.png" class="img-responsive" alt="Yellow Crystal">
 				</div>
-				<div class="green-crsytal crystal" value="greencyrstal">
-					<img src="./assets/images/green-crystal.png" class="img-responsive" alt="Green Crystal">
+				<div id="green-crsytal">
+					<img src="./CrystalsCollector Game_files/green-crystal.png" class="img-responsive" alt="Green Crystal">
 				</div>	
 			</div>
 		</div>
@@ -68,11 +68,11 @@
 		<!-- Score Tally Section -->
 		<div class="row">
 			<div class="col-sm-3 col-md-offset-1 scoreDiv">
-				<h2>Your total score is: </h2>
+				<p>Your total score is:</p>
 			</div>
 		</div>
 
-		<!-- User Score section -->
+		<!-- user score div -->
 		<div class="row">
 			<div class="col-sm-3 col-md-offset-1 scoreDiv">
 				<h2 id="userScore">score</h2>
@@ -83,9 +83,9 @@
 
 	
 	<!-- Linking JQuery -->
-	<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
+	<script type="text/javascript" src="./CrystalsCollector Game_files/jquery-2.2.0.js"></script>
 	<!-- Linking JS -->
-	<script type="text/javascript" src="./assets/javascript/game.js"></script>
+	<script type="text/javascript" src="./CrystalsCollector Game_files/game.js"></script>
 	
-	</body>
-</html>
+	
+</body></html>

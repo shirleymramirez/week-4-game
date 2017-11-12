@@ -47,12 +47,6 @@ body {
 	height: 150px;
 }
 
-#numGenerator {
-	font-size: 40px;
-	text-align: center;
-	padding-top: 50px;
-}
-
 /* Win or Lose Section*/
 .col-md-2 {
 	margin-top: 20px;
@@ -61,12 +55,11 @@ body {
 	margin-left: 10px;
 }
 
-#winScore,
-#losesScore {
-	padding-top: 30px;
+#wins,
+#loses {
+	padding-top: 20px;
 	font-size: 24px;
 	color: black;
-	text-align: justify;
 }
 
 /* Crystal Section*/
@@ -82,24 +75,13 @@ img {
 }
 
 /* Total Score Section*/
+.col-sm-3 p {
+	margin-left: 0;
+	height: 0px;
+}
+
 .col-sm-3 {
 	margin: 20px;
 	background-color: aquamarine;
 	height: 100px;
 }
-
-h2 {
-	padding-top: 20px;
-	height: 30px;
-	text-align: left;
-	color: black;
-}
-
-#userScore {
-	padding-top: 30px;
-	color: black;
-	font-size: 40px;
-	text-align: center;
-
-}
-
