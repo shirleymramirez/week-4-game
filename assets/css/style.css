@@ -30,7 +30,6 @@ body {
 	background-color: teal;
 	padding: 30px 10px;
 	font-size: 20px;
-	height: 350px;
 }
 
 .col-md-6 p {
@@ -40,7 +39,7 @@ body {
 	padding-left: 0;	
 }
 
-/*Number Generator Section Style*/
+/* Number Generator Section Style */
 .col-md-3 {
 	margin-top: 20px;
 	background-color: green;
@@ -53,7 +52,7 @@ body {
 	padding-top: 50px;
 }
 
-/* Win or Lose Section*/
+/* Win or Lose Section */
 .col-md-2 {
 	margin-top: 20px;
 	background-color: purple;
@@ -66,10 +65,9 @@ body {
 	padding-top: 30px;
 	font-size: 24px;
 	color: black;
-	text-align: justify;
 }
 
-/* Crystal Section*/
+/* Crystal Section */
 .col-sm-4  {
 	margin-top: 20px;
 	display: inline-flex;
@@ -81,19 +79,27 @@ img {
 	margin-right: 10px;
 }
 
-/* Total Score Section*/
-.col-sm-3 {
+/* Total Score Section */
+.total_score{
+	width: 300px;
 	margin: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
 	background-color: aquamarine;
-	height: 100px;
 }
 
 h2 {
 	padding-top: 20px;
-	height: 30px;
-	text-align: left;
 	color: black;
+	font: bold;
 }
+
+.col-sm-3 {
+	margin: 0 20px 20px 20px;
+	background-color: aquamarine;
+	height: 100px;
+}
+
 
 #userScore {
 	padding-top: 30px;
